@@ -3,10 +3,7 @@ const nextConfig = {
   // Enable SSR by default (App Router handles this automatically)
   
   // Optimize for Vercel deployment
-  experimental: {
-    // Enable server components optimizations
-    serverComponentsExternalPackages: ['appwrite'],
-  },
+  serverExternalPackages: ['appwrite'],
   
   // Environment-specific configurations
   env: {
